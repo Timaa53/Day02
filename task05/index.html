@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingPedia</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to CodingPedia!</h1>
+        <nav>
+            <ol>
+                <li>
+                    <a href="/index.html">Index</a>
+                </li>
+                <li>
+                    <a href="/php.html">PHP</a>
+                </li>
+                <li>
+                    <a href="sql.html">SQL</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <p>
+            CodingPedia is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual which functions as a wiki. <br />
+            CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify and improve.
+        </p>
+        <aside>
+            <p>
+                Bonjour, je m'appelle Andy, j'ai 34 ans et j'ai débuté mon aventure avec Epitech le 29/09/2025 pour 3 anneés en alternance dans le cadre d'un Msc.
+            </p>
+        </aside>
+
+        <form action="" method="get">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+            </div>
+
+            <div>
+                <label for="firstname">First name</label>
+                <input type="text" name="firstname" id="firstname" required />
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+            </div>
+
+            <div>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="3" max="99" />
+            </div>
+
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone" pattern="[0-9]{10}" maxlength="10" minlength="10" />
+            </div>
+
+            <div>
+                <span>Sex</span>
+                <label for="male">
+                    <input type="radio" name="sex" id="male" value="male" checked />
+                    Male
+                </label>
+                <label for="female">
+                    <input type="radio" name="sex" id="female" value="female" />
+                    Female
+                </label>
+            </div>
+
+            <div>
+                <label for="haircolor">Hair color</label>
+                <input type="color" name="haircolor" id="haircolor" />
+            </div>
+
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date" required value="2025-10-01" />
+            </div>
+
+            <div>
+                <label for="technology">Technology</label>
+                <select name="technology" id="technology">
+                    <option value="html">HTML</option>
+                    <option value="php">PHP</option>
+                    <option value="sql">SQL</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="question">Question</label>
+                <textarea name="question" id="question" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <address>
+            <p>Nom: Cortin</p>
+            <p>Prénom: Andy</p>
+            <p>Adresse: 6 impasse des lilas, 53210 Louvigné</p>
+            <p>Téléphone: 0677159989</p>
+        </address>
+    </footer>
+</body>
+</html>
